@@ -20,3 +20,7 @@ Run the application with the following command
 
 
 <img width="274" alt="Screenshot 2022-01-26 at 10 22 30 PM" src="https://user-images.githubusercontent.com/49427215/151209070-4b6ea117-ad45-462d-a0bf-d380b5548c04.png">
+
+## Demo
+
+[Link to demo](https://sandesha-appleute.herokuapp.com/)
