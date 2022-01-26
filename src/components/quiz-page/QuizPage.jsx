@@ -20,10 +20,10 @@ const QuizPage = () => {
         {"<"}
       </button>
       <div className={styles.root}>
-        <span
-          className={styles.category}
-        >{`${currentQuestion?.category}dsdfbnsd`}</span>
         <div className={styles.container}>
+          <span
+            className={styles.category}
+          >{`${currentQuestion?.category}`}</span>
           <div className={styles.question}>{`${questionNumber + 1}. ${
             currentQuestion?.question
           }`}</div>
