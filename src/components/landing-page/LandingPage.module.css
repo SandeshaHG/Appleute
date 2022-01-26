@@ -1,70 +1,73 @@
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
 }
 
 .contentRoot {
-
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10vw;
-        justify-content:center;
-        align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .startContainer {
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        gap : 20px;
-        align-items: center;
-        height: 15vh;
-        width: max(200px,20vw);
-        padding: 10px
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  height: 15vh;
+  width: max(200px, 20vw);
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .welcome {
-    font-size: min(4rem,5vw);
-    text-align: center;
-    padding: 4vw;
+  font-size: min(4rem, 5vw);
+  text-align: center;
+  padding: 4vw;
 }
 .root {
-    height :80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 10vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10vw;
 }
 
 .list {
-    font-size: min(2rem,2.5vw);
+  font-size: min(2rem, 2.5vw);
 }
 
 button {
-    padding: 10px;
-    min-width: 80px;
-    background: rgb(110, 79, 110);
-    color: white;
-    font-size: min(1rem,3vw);
-    border-radius: 10%;
+  padding: 10px;
+  min-width: 80px;
+  background: rgb(110, 79, 110);
+  color: white;
+  font-size: min(1rem, 3vw);
+  border-radius: 10%;
 }
 
 .buttons {
-        display: flex;
-        justify-content: space-between;
-        width: 100%
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .flexingBox {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .boxTitle {
-    font-size: min(1.5rem,3.5vw);
+  font-size: min(1.5rem, 3.5vw);
 }

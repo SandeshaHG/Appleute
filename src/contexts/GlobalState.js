@@ -4,26 +4,22 @@
 
 import { createContext, useReducer } from "react";
 import reducer from "./reducer";
-const GlobalContext = createContext()
+const GlobalContext = createContext();
 
-
-
-const GlobalState = ({children}) => {
-
-const initialState = {
-    completed : 0,
-    screen : 'landing-page',
-    data : [],
-    result : undefined,
-    answered : {}
-}
-const [state, dispatch] = useReducer(reducer,initialState)
-return (
-
-    <GlobalContext.Provider value={{state,dispatch}}>
-        {children}
+const GlobalState = ({ children }) => {
+  const initialState = {
+    completed: 0,
+    screen: "landing-page",
+    data: [],
+    result: undefined,
+    answered: {},
+  };
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <GlobalContext.Provider value={{ state, dispatch }}>
+      {children}
     </GlobalContext.Provider>
+  );
+};
 
-)}
-
-export  {GlobalState, GlobalContext}
+export { GlobalState, GlobalContext };
